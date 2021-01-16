@@ -26,10 +26,18 @@ const useForm = (type) => {
   }
 
   function onChange({ target }) {
+    if (error) validate(target.value);
     setValue(target.value);
   }
 
-  return { value, setValue, onChange };
+  return {
+    value,
+    setValue,
+    onChange,
+    error,
+    validate: () => validate(value),
+    onBlur: () => validate(value),
+  };
 };
 
 export default useForm;

@@ -1,6 +1,5 @@
 export const API_URL = 'https://dogsapi.origamid.dev/json';
 
-//Exportando uma função para cada endpoint
 export function TOKEN_POST(body) {
   return {
     url: API_URL + '/jwt-auth/v1/token',

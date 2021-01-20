@@ -13,12 +13,12 @@
   transition: 0.2s;
 }
 
-.input:hover,
-.input:focus {
-  outline: #90ee90;
-  border-color: 0.5px #32cd32;
-  background: #ccf1cc;
-  box-shadow: 0 0 0 1px #90ee90;
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: #fb1;
+  background: white;
+  box-shadow: 0 0 0 3px #fea;
 }
 
 .label {

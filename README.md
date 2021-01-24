@@ -9,3 +9,5 @@
 <p>* REST API criada em Wordpress;</p>
 <p>* Biblioteca externa para estatísticas de acessos;</p>
 <p>* Validação de formulários e muito mais.</p>
+
+![](.github/img_home.PNG)

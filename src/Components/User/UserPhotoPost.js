@@ -5,12 +5,12 @@ import useFetch from '../../Hooks/useFetch';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import Error from '../Helper/Error';
-import { PHOTO_POST } from '../../Api';
+import { PHOTO_POST } from '../../api';
 import { useNavigate } from 'react-router-dom';
 
 const UserPhotoPost = () => {
   const nome = useForm();
-  const peso = useForm('number');
+  const peso = useForm('number'); //Para validar que deve ser sempre este tipo de dado
   const idade = useForm('number');
   const [img, setImg] = React.useState({});
   const { data, error, loading, request } = useFetch();
@@ -30,13 +30,13 @@ const UserPhotoPost = () => {
 
     const token = window.localStorage.getItem('token');
     const { url, options } = PHOTO_POST(formData, token);
-    request(url, options);
+    request(url, options); //Valores foram definidos no component api, sempre que os uso.
   }
 
   function handleImgChange({ target }) {
     setImg({
       preview: URL.createObjectURL(target.files[0]),
-      raw: target.files[0],
+      raw: target.files[0], //Imagem que vamos passar para o submit enviar
     });
   }
 

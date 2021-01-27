@@ -68,14 +68,14 @@ export function PHOTOS_GET({ page, total, user }) {
     url: `${API_URL}/api/photo/?_page=${page}&_total=${total}&_user=${user}`,
     options: {
       method: 'GET',
-      cache: 'no-store', //Se colocar em cache ao postar uma foto nova, quando alguém entrar no feed ela aparece.
+      cache: 'no-store',
     },
   };
 }
 
-export function PHOTO_GET({ id }) {
+export function PHOTO_GET(id) {
   return {
-    url: `${API_URL}/api/photo/?_page=${page}&_total=${total}&_user=${user}`,
+    url: `${API_URL}/api/photo/${id}`,
     options: {
       method: 'GET',
       cache: 'no-store',

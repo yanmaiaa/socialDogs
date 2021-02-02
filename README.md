@@ -11,3 +11,7 @@
 <p>* Validação de formulários e muito mais.</p>
 
 ![](.github/img_home.PNG)
+
+![](.github/img_profile.PNG)
+
+![](.github/img_comments.PNG)

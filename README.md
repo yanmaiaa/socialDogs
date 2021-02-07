@@ -10,8 +10,14 @@
 <p>* Biblioteca externa para estatísticas de acessos;</p>
 <p>* Validação de formulários e muito mais.</p>
 
+<h2>Página Inicial</h2>
+
 ![](.github/img_home.PNG)
 
+<h2>Painel do Usuário</h2>
+
 ![](.github/img_profile.PNG)
+
+<h2>Postagem de Fotos</h2>
 
 ![](.github/img_comments.PNG)

@@ -21,5 +21,3 @@
 <h2>Postagem de Fotos</h2>
 
 ![](.github/img_comments.PNG)
-
-![](.github/img_comment.gif)

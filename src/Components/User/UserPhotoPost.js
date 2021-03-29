@@ -11,7 +11,7 @@ import Head from '../Helper/Head';
 
 const UserPhotoPost = () => {
   const nome = useForm();
-  const peso = useForm('number'); //Para validar que deve ser sempre este tipo de dado
+  const peso = useForm('number');
   const idade = useForm('number');
   const [img, setImg] = React.useState({});
   const { data, error, loading, request } = useFetch();
@@ -31,13 +31,13 @@ const UserPhotoPost = () => {
 
     const token = window.localStorage.getItem('token');
     const { url, options } = PHOTO_POST(formData, token);
-    request(url, options); //Valores foram definidos no component api, sempre que os uso.
+    request(url, options);
   }
 
   function handleImgChange({ target }) {
     setImg({
       preview: URL.createObjectURL(target.files[0]),
-      raw: target.files[0], //Imagem que vamos passar para o submit enviar
+      raw: target.files[0],
     });
   }
 

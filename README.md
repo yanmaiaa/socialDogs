@@ -21,3 +21,8 @@
 <h2>Postagem de Fotos</h2>
 
 ![](.github/img_comments.PNG)
+
+<h2>Estatísticas</h2>
+<p>Uso da biblioteca externa Victory para criar gráficos dinâmicos com a quantidade de acessos por imagem<p>
+
+![](.github/img_lib.PNG)

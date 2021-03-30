@@ -25,10 +25,6 @@
 <h2>Estatísticas</h2>
 <p>Uso da biblioteca externa Victory para criar gráficos dinâmicos com a quantidade de acessos por imagem<p>
 
-![](.github/priston_img)
-
-![](.github/abby_img)
-
-![](.github/ellie_img)
-
 ![](.github/img_lib.PNG)
+
+![](.github/abby_img.PNG)
